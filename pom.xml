@@ -22,4 +22,12 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>Github marioskaraiskos Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/marioskaraiskos/calc-1</url>
+    </repository>
+  </distributionManagement>
 </project>
